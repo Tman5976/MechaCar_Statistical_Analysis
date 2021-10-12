@@ -2,7 +2,8 @@
 
 ## Linear Regression to Predict MPG
 
-Image 1
+![R_linear_model](https://user-images.githubusercontent.com/85756203/136996559-08459736-6e8f-4597-8e47-062f556fc449.png)
+
 
 We need to examine the p-value of the variables to determine whether a variable may impact the MechaCar mpg. 
 The ground_clearance and vehicle_length variables have p-values of less than 0.05. Those two variables appear to have an impact on the mpg of our MechaCar.
@@ -16,6 +17,10 @@ Because of the R-squared value, I do believe this is an effective linear model.
 
 ## Summary Statistics on Suspension Coils
 
+![R_psi_summary](https://user-images.githubusercontent.com/85756203/136996616-55e7d081-5236-483b-b27a-8b556d71b101.png)
+
+![R_lot_psi_summary](https://user-images.githubusercontent.com/85756203/136996633-bfefec04-6bd7-4265-96d9-386cd5e60a7a.png)
+
 The current manufacturing data does not meet the requirements in total for the MechaCar suspension. Each of the manufacturing lots is required to have a variance of less than 100 psi. From our data, Lot 3 has a variance of 170 psi.
 Lots 1 and 2 are both under the required level with a variance of 0.980 and 7.47, respectively.
 
@@ -25,9 +30,16 @@ For this part of our assignment, we ran four different t-tests to see if there w
 
 The base t-test produced the results below.
 
+![R_coils_t-test](https://user-images.githubusercontent.com/85756203/136996672-a052c55b-d315-41ce-b578-c49a2369e6b9.png)
+
 The p-value of 0.06028 is not low enough to reject the null hypothesis. Meaning, there is no evidence to show a statistical difference in the means of the PSI.
 
+![R_lot_1_t-test](https://user-images.githubusercontent.com/85756203/136996697-829bcb25-213d-40f8-b862-22db7ac33729.png)
+![R_lot_2_t-test](https://user-images.githubusercontent.com/85756203/136996706-5dd023e6-5665-4f68-83aa-6885fb118a64.png)
+
 The tests for Lot1 and Lot2 also produced the same results.
+
+![R_lot_3_t-test](https://user-images.githubusercontent.com/85756203/136996730-fd173459-1b78-4fae-9855-5de5d5a83973.png)
 
 The Lot3 t-test had a resulting p-value of 0.04168.  That tells us a difference in the average PSI in cars produced from Lot3 compared to our base mean PSI (1500) exists.
 
